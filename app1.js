@@ -7,7 +7,7 @@ const port = 3001;
 
 app.use(morgan('combined'));
 app.get("/", (req,res) =>{
-    res.send('Hello BABABA');
+    res.send('Hello I am lerning Nodejs');
 })
 app.listen(port, ()=>{
     debug ("Listening on port ",port);
